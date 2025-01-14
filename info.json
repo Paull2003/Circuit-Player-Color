@@ -1,9 +1,9 @@
 {
 "name": "Circuit-Player-Colour",
-"version": "0.1.0",
+"version": "0.2.0",
 "title": "Circuit-Player-Colour",
 "author": "Mind_ev3",
-"factorio_version": "1.1",
+"factorio_version": "2.0.7",
 "dependencies": ["base >= 1.1.0"],
 "description": "Change the colour of the player depending on a circuit condition."
 }
