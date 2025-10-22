@@ -1,9 +1,9 @@
 {
-"name": "Circuit-Player-Colour",
-"version": "0.2.0",
-"title": "Circuit-Player-Colour",
+"name": "Circuit-Player-Color",
+"version": "0.3.0",
+"title": "Circuit-Player-Color",
 "author": "Mind_ev3",
 "factorio_version": "2.0.7",
-"dependencies": ["base >= 1.1.0"],
-"description": "Change the colour of the player depending on a circuit condition."
+"dependencies": ["base >= 2.0.7"],
+"description": "Change the color of the player depending on a circuit condition. By Using the red, green and blue wire signals you can change the color of your Engineer by selecting the output of a combinator. The output signal will be interpreted as a 8-bit RGB value and control the Engineers color which is updated every few game ticks."
 }
