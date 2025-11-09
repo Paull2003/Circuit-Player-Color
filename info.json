@@ -1,7 +1,7 @@
 {
-"name": "Circuit-Player-Colour",
+"name": "Circuit-Player-Color",
 "version": "0.3.0",
-"title": "Circuit-Player-Color",
+"title": "Circuit Player Color",
 "author": "Mind_ev3",
 "factorio_version": "2.0",
 "dependencies": ["base >= 2.0.7"],
