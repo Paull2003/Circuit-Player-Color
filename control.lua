@@ -4,10 +4,15 @@ script.on_event(defines.events.on_gui_opened, function(event)
     if player.gui.screen["selector_main_frame"] then
         player.gui.screen["selector_main_frame"].destroy()
     end
+    for i, player in pairs(game.players) do
+        if storage[player.index] == nil then
+            storage[player.index] = {}
+        end
+    end
     if entity == nil then
         return
     end
-    if entity.name == "decider-combinator" or entity.name == "constant-combinator" or entity.name == "arithmetic-combinator"
+    if entity.name == "decider-combinator" or entity.name == "constant-combinator" or entity.name == "arithmetic-combinator" or entity.name == "selector-combinator"
     then
         local screen_element = player.gui.screen
         local main_frame = screen_element.add { type = "frame", name = "selector_main_frame", caption = { "selector.Window_Title" } }
